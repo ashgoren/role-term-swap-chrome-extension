@@ -1,0 +1,16 @@
+{
+  "name": "Caller's Box Role Term Swapper",
+  "description": "Replace gendered role terms with Larks/Robins",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": { "128": "icon128.png" },
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": [
+        "https://www.ibiblio.org/contradance/thecallersbox/*",
+        "https://ibiblio.org/contradance/thecallersbox/*"
+      ]
+    }
+  ]
+}
